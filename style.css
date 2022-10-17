@@ -1,0 +1,121 @@
+body {
+    font-family: sans-serif;
+}
+
+body > header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #cccccc;
+}
+
+body > header input[type="text"] {
+    border: 1px solid black;
+    padding: 5px 0px 5px 10px;
+    font-size: 16px;
+    margin: 0 9% 0 9%;
+}
+
+body > header input[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    width: 90px;
+    box-shadow: black 2px 2px;
+}
+
+.row {
+    display: flex;
+}
+
+#ninjas {
+    margin-right: 1%;
+    width: 32%;
+}
+
+.row-around-end {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.row-around-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row-start-center {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.row-center-start {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ninja {
+    margin-top: 30px;
+    border: 2px solid black;
+    padding: 10px 0px 15px 10px;
+}
+
+.ninja div aside {
+    text-align: center;
+}
+
+.ninja div aside h1 {
+    font-size: 2em;
+    margin: 0px;
+}
+
+.ninja div aside p {
+    margin: 0px;
+}
+
+.ninja div aside *, .ninja div aside p {
+    margin-top: 5px;
+    font-size: 21px;
+}
+
+.ninja div aside button {
+    margin-top: 15px;
+    width: 114px;
+    padding: 5px 0px;
+    background-color: #f8da78;
+    font-weight: bold;
+    box-shadow: black 2px 2px;
+}
+
+.ninja div > p {
+    margin: 0px 34px 0px 34px;
+    font-size: 21px;
+}
+
+#definitions {
+    width: 12%;
+}
+
+.definition {
+    margin-top: 30px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.definition p {
+    font-size: 22px;
+}
+
+.definition button {
+    background-color: #9dc384;
+    padding: 10px 25px 10px 25px;
+    box-shadow: black 2px 2px;
+    font-size: 16px;
+}
